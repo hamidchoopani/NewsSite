@@ -1,0 +1,647 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "type": "Sport",
+      "img": "/src/assets/Sport/Lionel-Messi.png",
+      "subTitle": "An angry Lionel Messi is good for Argentina — and scary for opponents",
+      "title": "Argentina's Lionel Messi is hungry to end his time on the national team with a World Cup title and that bodes well for those tuning into his match Tuesday.",
+      "description": "DOHA, Qatar – Lionel Messi is angry, and your reaction to those words will mean something different depending on who you are, where you come from and what you wish to happen from this closing week of the World Cup.Messi being royally ticked off is a headache in the here and now if you’re a Croatia player, coach or fan. It’s not great news if you’re tied to France or Morocco, either; though in that instance, it likely feels like a problem for future days.For everyone else, especially those who wish well for Argentina’s soccer maestro, one of soccer’s enduring human treasures, Messi getting annoyed is a really, really good thing",
+      "like": 12,
+      "disLike": -8,
+      "tag": [
+        "messi",
+        "Argentina",
+        "Cup",
+        "Qatar",
+        "World Cup",
+        "sports"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 2,
+      "type": "Sport",
+      "img": "/src/assets/Sport/messi.jpg",
+      "subTitle": "Lionel Messi’s World Cup pursuit has become the world’s shared dream",
+      "title": "Lionel Messi and Argentina will take on France in the World Cup final on Sunday in what will be Messi's last appearance for his country.",
+      "description": "According to the sports books, there will be no favorite when Argentina and France take the field in Sunday’s World Cup final (coverage begins at 9 a.m. ET, FOX and the FOX Sports app). That’s not stopping the Argentines from embracing — manufacturing — an underdog role ahead of the match against the defending champions.People can say that the favorites are France. We always like to hear that the opponent is the favorite,goalkeeper Emiliano Martínez said Saturday at his team’s final press conference before the decisive contest. He couldn’t help then adding a qualifier.",
+      "like": 3,
+      "disLike": 2,
+      "tag": [
+        "messi",
+        "Argentina",
+        "Cup",
+        "Qatar",
+        "final",
+        "World Cup",
+        "sports"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 3,
+      "type": "Sport",
+      "img": "/src/assets/Sport/qatar.jpg",
+      "subTitle": "Why this has been a culturally unique World Cup",
+      "title": "Breaking ground in the Middle East and played for the first time in the European winter, it was always going to look and feel different",
+      "description": "Qatar was described by some as the most controversial World Cup tournament host, with criticism ranging from alleged corruption in the bidding process to a callous disregard for human rights.It is undoubtedly right to shine a light on the deaths and conditions endured by migrant workers to make this tournament happen, and LGBTQ and women’s rights too, although some Qataris might wonder why their country came under such intense criticism when countries with questionable human rights records, have also hosted major sporting events in recent years.The last World Cup was held in Russia, for example, a country that has made it illegal for anyone to promote same-sex relationships or suggest that non-heterosexual orientations are “normal.”",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "World Cup",
+        "Cup",
+        "Qatar",
+        "World Cup",
+        "sports"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 4,
+      "type": "Sport",
+      "img": "/src/assets/Sport/messiAndronaldo.jpg",
+      "subTitle": "Lionel Messi and Cristiano Ronaldo both score in thrilling exhibition match in Saudi Arabia",
+      "title": "Lionel Messi and Cristiano Ronaldo put on a show as they came head to head in Paris Saint-Germain’s 5-4 win over a Riyadh All-Star XI on Thursday.",
+      "description": "The exhibition match was played in Saudi Arabia’s capital and saw the two superstars renew their storied rivalry for possibly the last time.Despite being a friendly, the game was played at a furious pace as a packed out crowd inside the King Fahd Stadium was treatedto a goal-fest between the French champion and a team consisting of the best players from Saudi’sdomestic league.It was Messi who opened the scoring with a well taken finish within three minutes before Ronaldo equalized from the penalty spot after colliding with PSG goalkeeper Keylor Navas.Juan Bernat was then sent off for the French giant after bringing down Salem Al Dawsari as the last man.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Messi",
+        "Ronaldo",
+        "Saudi Arabia",
+        "World Cup",
+        "sports"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 5,
+      "type": "Sport",
+      "img": "/src/assets/Sport/pele.jpg",
+      "subTitle": "What made Pelé so great,He was that rarity; like Muhammad Ali, Pelé was a sports star, who transcended his sport.",
+      "title": "Born into poverty – he used to kick a grapefruit around Brazil’s Minas Gerais state – Pelé finished his career as arguably soccer’s greatest ever player.",
+      "description": "The Brazilian brought joy and creativity to a sport often stuck in rigidity and personified o jogo bonito – “the beautiful game.” “Pele changed everything,” wrote current Brazil international Neymar Jr. after Pelé’s death was announced.“He turned football into art, into entertainment. He gave a voice to the poor, to Black people and especially. He gave visibility to Brazil.”From dazzling as a 17-year-old in 1958 on his way to his first World Cup success to claiming the Golden Ball award as player of the 1970 World Cup as he won a third global title, “O Rei” (“The King”) achieved almost everything possible in the famous yellow and blue of Brazil.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Pelé",
+        "sports",
+        "sports star"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 6,
+      "type": "Economic",
+      "img": "/src/assets/Economy/Climate crisis.jpg",
+      "subTitle": "These 3 solutions could turn the tide on the climate crisis",
+      "title": "Climate change is sending the world hurtling towards a series of catastrophic tipping points, which risk setting off feedback loops that lock the world into irreversible climate change. That’s the bad news.",
+      "description": "The good news, however, is that there is also a series of “positive tipping points,” according to an analysis published Thursday by researchers from an international group of institutions including the University of Exeter and the World Resources Institute’s Systems Change Lab, with support from the Bezos Earth Fund.These are defined as small climate actions that could have a snowball effect, prompting emissions cuts across some of most polluting sectors of the global economy.The theory goes like this: As new technologies start to outpace older, more polluting versions, reinforcing feedback loops kick in that help a technology to improve.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        " climate crisis",
+        "sports star"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 7,
+      "type": "Economic",
+      "img": "/src/assets/Economy/new-car-prices.jpg",
+      "subTitle": "Most new car buyers are now paying less than sticker price",
+      "title": "Americans can once again buy cars for less than sticker price. But that doesn’t mean they’re finding bargains at their local dealerships.",
+      "description": "A year ago, record tight inventories meant 80% of buyers were paying more than the manufacturers’ suggested retail price (MSRP), or sticker price, according to data from Edmunds. For decades, car buyers had been able to negotiate a discount.Today, only 36% of buyers are paying above sticker. After paying an average of $700 above MSRP in the spring, buyers paid an average of $300 less than sticker in December.That’s still far less than the $2,600 average that buyers saved on the sticker price in 2019, according to Edmunds’ data — while the average transaction price remains at a record high, according to data from both Edmunds and Cox Automotive.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        " car crisis"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 8,
+      "type": "Economic",
+      "img": "/src/assets/Economy/china.jpg",
+      "subTitle": "China’s population is shrinking. The impact will be felt around the world",
+      "title": "China may be one step closer to losing its place as the world’s most populous country to India after its population shrank for the first time since the 1960s.",
+      "description": "The country’s population fell in 2022 to 1.411 billion, down some 850,000 people from the previous year, China’s National Bureau of Statistics (NBS) announced during a Tuesday briefing on annual data.The last time China’s population decreased was in 1961, during a famine that killed tens of millions of people across the country.This time, a combination of factors are behind the drop: the far-reaching consequences of the one-child policy China introduced in the 1980s (but has since abandoned); changing attitudes toward marriage and family among Chinese youth; entrenched gender inequality and the challenges of raising children in China’s expensive cities.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        "China",
+        "population"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 9,
+      "type": "Economic",
+      "img": "/src/assets/Economy/microsoft.jpg",
+      "subTitle": "Microsoft is laying off 10,000 employees",
+      "title": "Microsoft plans to lay off 10,000 employees as part of broader cost-cutting measures, the company said in a securities filing on Wednesday,",
+      "description": "Speaking before the layoff announcement at the World Economic Forum (WEF) in Davos, Switzerland, on Wednesday, Microsoft CEO Satya Nadella said that the company was not immune to a weaker global economy.“No one can defy gravity and gravity here is inflation-adjusted economic growth,” he told WEF founder Klaus Schwab in a livestreamed discussion.In a memo to staffers Wednesday, Nadella also cited changing demand years for digital services years into the pandemic as well as looming recession fears.“We’re living through times of significant change, and as I meet with customers and partners, a few things are clear,” he wrote. “First, as we saw customers accelerate their digital spend during the pandemic.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        "Microsoft",
+        "Financial crisis"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 10,
+      "type": "Economic",
+      "img": "/src/assets/Economy/pump.jpg",
+      "subTitle": "Europe's ban on Russian diesel could send pump prices even higher",
+      "title": "Europe is scrambling to buy diesel fuel from Russia before a ban on imports comes into force in early February, but the frantic stockpiling is unlikely to prevent a new price shock for truckers,",
+      "description": "In the first two weeks of January, European countries snapped up almost 8 million barrels of Russian diesel, according to energy data provider Vortexa, roughly on par with imports this time last year before Russia invaded Ukraine. Imports in the fourth quarter of 2022 were up nearly 19% on the same period the previous year.Since Russia’s invasion in February last year, the European Union has made a huge effort to wean itself off Moscow’s oil and natural gas supplies. That has included a ban on all Russian seaborne crude oil imports, which came into force in December.EU countries drastically reduced their imports of crude from Russia ahead of the ban, but that isn’t happening with diesel because it’s much harder to find alternative sources of the fuel.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        "Russian",
+        "swelling",
+        "diesel",
+        "oil"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 11,
+      "type": "Technology",
+      "img": "/src/assets/Technology/apple.png",
+      "subTitle": "Apple Fast Facts,Here’s a look at Apple, Inc, creator of the Mac computer and the iPhone.",
+      "title": "The corporate headquarters are in Cupertino, California. As of September 2022",
+      "description": "TimelineApril 1, 1976 - Apple Computers, Inc. is founded by Steve Jobs and Steve Wozniak. Their first product is the Apple I personal computer.June 1977 - The Apple II is released.December 1980 - Apple conducts an initial public offering of 4.6 million shares at $22 per share.January 1983 - Apple introduces the Lisa, a new brand of personal computer.January 22, 1984 - The Macintosh computer is introduced with a futuristic commercial that airs during the Super Bowl.1985 - Apple discontinues the Lisa after a disappointing run, and Jobs leaves thecompany.December 1996 - Apple buys Jobs’ company, NeXT Software.1997 - In the wake of corporate shakeups and a sales slump.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "Apple",
+        "Steve Jobs"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 12,
+      "type": "Technology",
+      "img": "/src/assets/Technology/twitter.jpg",
+      "subTitle": "With its advertising business in crisis, Twitter eases ban on political ads",
+      "title": "More than three years ago, Twitter prohibited political and issue-based ads amid broader concerns that politicians could pay to target social media users with false or misleading information",
+      "description": "Now, under its new owner Elon Musk, the company is easing that ban, in a move that could provide Twitter a much-needed sales boost at a time when Musk is urgently searching for new revenue streams. But it comes with some risks: the policy change could expose users to threats the company has previously said it may not be able to address, including spreading AI-created deep fakes and other sophisticated attempts to manipulate the platform.On Tuesday, Twitter announced it would relax its ban on issue ads, saying “cause-based advertising can facilitate public conversation around important topics.” Twitter added that it would “expand the political advertising we permit in the coming weeks,” with a pledge to share “more details as this work progresses.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "Twitter",
+        "Elon Musk",
+        "ads"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 13,
+      "type": "Technology",
+      "img": "/src/assets/technology/technologyTrends.jpg",
+      "subTitle": "These are the technology trends that will shape our lives in 2023.",
+      "title": "The late management guru Peter Drucker once said that “Trying to predict the future is like trying to drive down a country road at night with no lights",
+      "description": "When it comes to anticipating new trends in technology, change is happening so fast that the back window may as well be fogged up.2022 saw NFTs go from flavor of the month to yesterday’s leftovers; cryptocurrency experience a long cold winter; and nuclear fusion take its first steps from the realms of science fiction towards becoming science fact.But for those who follow the latest developments in innovation, it is possible to see patterns in where societies are heading, and forecast which technologies will take them there.As we begin 2023, CNN asked four experts to predict which technologies will shape our lives this year – here’s what they said.Artificial intelligence (AI) has become part of our daily lives.”",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "lives",
+        "NFTs",
+        "cryptocurrency",
+        "AI"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 14,
+      "type": "Technology",
+      "img": "/src/assets/Technology/hatgpt.jpg",
+      "subTitle": "Teachers are adapting to concerns about a powerful new AI tool",
+      "title": "When Kristen Asplin heard about a powerful new AI chatbot tool called ChatGPT going viral online recently with its ability to write frighteningly good essays in seconds",
+      "description": "Asplin, a professor at University of Pittsburgh at Greensburg, soon joined a new Facebook group for teachers like herself to swap concerns and suggestions on how to restructure their lessons and assignments in response to ChatGPT. The tool, which launched in late November, can create detailed responses to simple prompts like “Who was the 25th president of the United States?” as well as answers to more complex questions like “What political developments led to the fall of the Roman Empire?”.Asplin eventually decided to tweak her approach to written assignments. Instead of focusing just on the final product, which could potentially be spit out easily by ChatGPT, she’s now asking students to hand in their papers at various stages of the writing process.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "ChatGPT",
+        "NFTs",
+        "Robat",
+        "AI"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 15,
+      "type": "Technology",
+      "img": "/src/assets/Technology/intel.png",
+      "subTitle": "Intel CEO: Chip supply chains will shape geopolitics more than oil over the next 50 years",
+      "title": "Global politics will be dominated by the availability, trade and investment in microchips for the next several decades, Intel CEO Pat Gelsinger told CNN Tuesday.",
+      "description": "The location of “oil reserves [has] defined geopolitics for the last five decades,” Gelsinger said in an interview with CNN’s Julia Chatterley at the World Economic Forum in Davos. “Where the technology supply chains are, and where semiconductors are built, is more important for the next 5 decades.” ,Gelsinger said the company’s investment in new manufacturing facilities in the United States, Europe and elsewhere is important not only for the company’sfuture, but for the “globalization of the most critical resource to the future of the world.”,“We need this geographically balanced, resilient supply chain,” he said.Intel (INTC) said last year it would invest $20 billion to build two new US chipmaking facilities, as well as up to $90 billion in new European factories.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "Intel",
+        "Chip"
+      ],
+      "source": "CNN"
+    }
+  ],
+  "newsFa": [
+    {
+      "id": 1,
+      "type": "Sport",
+      "img": "/src/assets/Sport/Lionel-Messi.png",
+      "subTitle": "لیونل مسی عصبانی برای آرژانتین خوب است و برای حریف ترسناک است",
+      "title": "لیونل مسی آرژانتینی تشنه است که دوران حضورش در تیم ملی را با قهرمانی در جام جهانی به پایان برساند و این برای کسانی که در بازی سه شنبه او آماده می شوند، خوب است..",
+      "description": "دوحه، قطر - لیونل مسی عصبانی است و واکنش شما به این کلمات بسته به اینکه چه کسی هستید، از کجا آمده‌اید و چه اتفاقی می‌خواهید در این هفته پایانی جام جهانی بیفتد معنای متفاوتی خواهد داشت. اگر بازیکن، مربی یا طرفدار کرواسی هستید، در اینجا و اکنون سردرد دارید. اگر به فرانسه یا مراکش وابسته باشید، خبر خوبی نیست. اگر چه در آن مثال، احتمالاً برای روزهای آینده مشکلی به نظر می رسد. برای همه افراد دیگر، به خصوص آنهایی که برای استاد فوتبال آرژانتین، یکی از گنجینه های انسانی ماندگار فوتبال آرزوی خوبی دارند، عصبانی شدن مسی واقعاً چیز خوبی است.",
+      "like": 2,
+      "disLike": 1,
+      "tag": [
+        "messi",
+        "Argentina",
+        "Cup",
+        "Qatar",
+        "World Cup",
+        "sports"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 2,
+      "type": "Sport",
+      "img": "/src/assets/Sport/messi.jpg",
+      "subTitle": "پیگیری لیونل مسی در جام جهانی به رویای مشترک جهان تبدیل شده است",
+      "title": "لیونل مسی و آرژانتین روز یکشنبه در فینال جام جهانی به مصاف فرانسه خواهند رفت که آخرین بازی مسی برای کشورش خواهد بود..",
+      "description": "طبق کتاب های ورزشی، زمانی که آرژانتین و فرانسه در فینال جام جهانی یکشنبه به میدان بروند، هیچ مورد علاقه ای وجود نخواهد داشت (پوشش از ساعت 9 صبح به وقت شرقی، FOX و برنامه FOX Sports شروع می شود). این مانع از آن نمی شود که آرژانتینی ها پیش از بازی مقابل مدافع عنوان قهرمانی، نقش ضعیفی را در پیش بگیرند - تولید - کنند. مردم می توانند بگویند که طرفدار فرانسه است. امیلیانو مارتینز دروازه بان شنبه در آخرین کنفرانس مطبوعاتی تیمش قبل از مسابقه سرنوشت ساز گفت: همیشه دوست داریم بشنویم که حریف مورد علاقه است. او نمی‌توانست کمکی به اضافه کردن یک واجد شرایط کند.",
+      "like": 3,
+      "disLike": 2,
+      "tag": [
+        "messi",
+        "Argentina",
+        "Cup",
+        "Qatar",
+        "final",
+        "World Cup",
+        "sports"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 3,
+      "type": "Sport",
+      "img": "/src/assets/Sport/qatar.jpg",
+      "subTitle": "چرا این جام جهانی از نظر فرهنگی منحصر به فرد بوده است",
+      "title": "با پیشرفت در خاورمیانه و بازی برای اولین بار در زمستان اروپا، همیشه متفاوت به نظر می رسید و احساس می شد.",
+      "description": "قطر توسط برخی به عنوان بحث‌برانگیزترین میزبان مسابقات جام جهانی توصیف شد، با انتقاداتی از فساد ادعایی در روند مناقصه تا بی‌توجهی بی‌رحمانه به حقوق بشر. این مسابقات را به وقوع بپیوندد، و LGBTQ و حقوق زنان نیز، اگرچه ممکن است برخی از قطری‌ها تعجب کنند که چرا کشورشان مورد انتقاد شدید قرار گرفته است، در حالی که کشورهایی با سوابق مشکوک حقوق بشری، میزبان رویدادهای ورزشی مهمی نیز در سال‌های اخیر بوده‌اند. آخرین جام جهانی در سال‌های اخیر برگزار شد. برای مثال، روسیه، کشوری که ترویج روابط همجنس‌گرایان را برای هر کسی غیرقانونی اعلام کرده یا پیشنهاد می‌کند که جهت‌گیری‌های غیردگرجنس‌گرا «عادی است.”",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "World Cup",
+        "Cup",
+        "Qatar",
+        "World Cup",
+        "sports"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 4,
+      "type": "Sport",
+      "img": "/src/assets/Sport/messiAndronaldo.jpg",
+      "subTitle": "لیونل مسی و کریستیانو رونالدو هر دو در یک مسابقه نمایشگاهی هیجان انگیز در عربستان سعودی گلزنی می کنند",
+      "title": "لیونل مسی و کریستیانو رونالدو در جریان پیروزی 5-4 پاری سن ژرمن مقابل یک یازده ستاره ریاض در روز پنجشنبه، نمایشی از خود به نمایش گذاشتند.",
+      "description": "این مسابقه نمایشگاهی در پایتخت عربستان سعودی برگزار شد و دو فوق ستاره احتمالا برای آخرین بار رقابت داستانی خود را از سر گرفتند. علیرغم اینکه یک بازی دوستانه بود، بازی با سرعتی خشمگین برگزار شد و جمعیت پر ازدحام داخل استادیوم ملک فهد مورد استقبال قرار گرفتند. جشن گل بین قهرمان فرانسه و تیمی متشکل از بهترین بازیکنان لیگ داخلی عربستان. این مسی بود که در عرض سه دقیقه با یک ضربه خوب دروازه را باز کرد تا اینکه رونالدو پس از برخورد با کیلور ناواس، دروازه بان پاری سن ژرمن از روی نقطه پنالتی گل تساوی را به ثمر رساند. خوان برنات پس از آن که سالم الدوسری را به عنوان آخرین نفر از زمین خارج کرد، برای غول فرانسوی اخراج شد.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Messi",
+        "Ronaldo",
+        "Saudi Arabia",
+        "World Cup",
+        "sports"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 5,
+      "type": "Sport",
+      "img": "/src/assets/Sport/pele.jpg",
+      "subTitle": "آنچه پله را اینقدر بزرگ کرده بود، او همین نادر بود. پله مانند محمد علی یک ستاره ورزشی بود که از ورزش خود فراتر رفت.",
+      "title": "پله که در فقر به دنیا آمد – در ایالت میناس گرایس برزیل با یک گریپ فروت لگد می زد – حرفه خود را به عنوان بهترین بازیکن تاریخ فوتبال به پایان رساند.",
+      "description": "این برزیلی شادی و خلاقیت را به ورزشی آورد که اغلب در سفتی گیر کرده بود و شخصیت جوگو بونیتو -بازی زیبا است. نیمار جونیور ملی پوش فعلی برزیل پس از اعلام مرگ پله نوشت: «پله همه چیز را تغییر داد. او فوتبال را به هنر، به سرگرمی تبدیل کرد. او صدایی به فقرا، سیاه پوستان و به ویژه داد. او به برزیل دیده شد.» از خیره‌کننده بودن در 17 سالگی در سال 1958 تا اولین موفقیت خود در جام جهانی تا دریافت جایزه توپ طلا به عنوان بازیکن جام جهانی 1970 به عنوان سومین عنوان جهانی، «O» ری» («پادشاه») تقریباً به هر چیزی که ممکن بود در زرد و آبی معروف برزیل دست یافت.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Pelé",
+        "sports",
+        "sports star"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 6,
+      "type": "Economic",
+      "img": "/src/assets/Economy/Climate crisis.jpg",
+      "subTitle": "این 3 راه حل می تواند بحران آب و هوا را تغییر دهد",
+      "title": "تغییرات اقلیمی جهان را به سوی یک سری از نقاط اوج فاجعه‌بار می‌فرستد که خطر ایجاد حلقه‌های بازخوردی را دارد که جهان را درگیر تغییرات آب و هوایی غیرقابل برگشت می‌کند. این خبر بد است.",
+      "description": "با این حال، خبر خوب این است که طبق تحلیلی که روز پنجشنبه توسط محققان یک گروه بین المللی از موسسات از جمله دانشگاه اکستر و آزمایشگاه تغییر سیستم موسسه منابع جهانی با پشتیبانی منتشر شد، یک سری نقاط اوج مثبت نیز وجود دارد. از صندوق زمین بزوس. اینها به عنوان اقدامات کوچک آب و هوایی تعریف می شوند که می توانند اثر گلوله برفی داشته باشند و باعث کاهش انتشار گازهای گلخانه ای در برخی از آلاینده ترین بخش های اقتصاد جهانی شوند. این تئوری به این صورت است: همانطور که فناوری های جدید شروع به پیشی گرفتن از قدیمی تر می کنند، آلاینده تر می شوند. در نسخه‌های مختلف، حلقه‌های بازخورد تقویت‌کننده به بهبود فناوری کمک می‌کنند.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        " climate crisis",
+        "sports star"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 7,
+      "type": "Economic",
+      "img": "/src/assets/Economy/new-car-prices.jpg",
+      "subTitle": "اکثر خریداران خودروهای جدید اکنون کمتر از قیمت برچسب پرداخت می کنند",
+      "title": "آمریکایی ها بار دیگر می توانند خودروهایی را با قیمتی کمتر از برچسب خریداری کنند. اما این بدان معنا نیست که آنها در نمایندگی های محلی خود معامله می کنند.",
+      "description": "طبق داده‌های Edmunds، یک سال پیش، موجودی‌های کم رکورد به این معنی بود که 80 درصد خریداران بیشتر از قیمت خرده‌فروشی پیشنهادی تولیدکنندگان (MSRP) یا قیمت برچسب پرداخت می‌کردند. برای چندین دهه، خریداران خودرو قادر به مذاکره با تخفیف بودند. امروز، تنها 36 درصد از خریداران بالای برچسب پرداخت می‌کنند. پس از پرداخت میانگین 700 دلار بالاتر از MSRP در بهار، خریداران در ماه دسامبر به طور متوسط ​​300 دلار کمتر از برچسب پرداخت کردند. طبق داده‌های ادموندز، این رقم هنوز بسیار کمتر از میانگین 2600 دلاری است که خریداران در قیمت استیکر در سال 2019 صرفه‌جویی کردند. با توجه به داده‌های Edmunds و Cox Automotive، میانگین قیمت تراکنش در بالاترین حد خود باقی مانده است.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        " car crisis"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 8,
+      "type": "Economic",
+      "img": "/src/assets/Economy/china.jpg",
+      "subTitle": "جمعیت چین در حال کاهش است. تاثیر آن در سراسر جهان احساس خواهد شد",
+      "title": "چین ممکن است یک قدم به از دست دادن جایگاه خود به عنوان پرجمعیت ترین کشور جهان به هند پس از کاهش جمعیت برای اولین بار از دهه 1960 نزدیکتر باشد.",
+      "description": "اداره ملی آمار چین (NBS) طی یک نشست سه‌شنبه درباره داده‌های سالانه اعلام کرد که جمعیت این کشور در سال 2022 به 1.411 میلیارد نفر کاهش یافته است که حدود 850000 نفر نسبت به سال گذشته کاهش یافته است. آخرین باری که جمعیت چین در سال 1961 کاهش یافت، در زمان قحطی بود. ده‌ها میلیون نفر را در سراسر کشور کشته است. این بار، مجموعه‌ای از عوامل پشت این افت هستند: پیامدهای گسترده سیاست تک فرزندی که چین در دهه 1980 معرفی کرد (اما از آن زمان آن را رها کرده است). تغییر نگرش نسبت به ازدواج و خانواده در میان جوانان چینی؛ نابرابری جنسیتی ریشه‌دار و چالش‌های تربیت کودکان در شهرهای گران‌قیمت چین.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        "China",
+        "population"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 9,
+      "type": "Economic",
+      "img": "/src/assets/Economy/microsoft.jpg",
+      "subTitle": "مایکروسافت 10000 کارمند خود را اخراج می کند",
+      "title": "مایکروسافت قصد دارد 10000 کارمند خود را به عنوان بخشی از اقدامات کاهش هزینه‌های گسترده‌تر اخراج کند.",
+      "description": "ساتیا نادلا، مدیرعامل مایکروسافت، روز چهارشنبه، پیش از اعلام تعلیق کارکنان در مجمع جهانی اقتصاد (WEF) در داووس، سوئیس، گفت که این شرکت در برابر اقتصاد ضعیف‌تر جهانی مصون نیست. او در گفتگوی زنده به کلاوس شواب، بنیانگذار WEF گفت. نادلا در یادداشتی به کارکنان در چهارشنبه، همچنین به تغییر سال‌های تقاضا برای خدمات دیجیتال در سال‌های همه‌گیری و همچنین ترس از رکود اقتصادی اشاره کرد. تغییرات قابل توجهی است، و همانطور که من با مشتریان و شرکا ملاقات می کنم، چند چیز مشخص است همانطور که دیدیم مشتریان هزینه های دیجیتال خود را در طول همه گیری سرعت می بخشند.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        "Microsoft",
+        "Financial crisis"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 10,
+      "type": "Economic",
+      "img": "/src/assets/Economy/pump.jpg",
+      "subTitle": "ممنوعیت اروپا برای گازوئیل روسیه می تواند قیمت پمپ را حتی بالاتر ببرد",
+      "title": "اروپا در حال تقلا برای خرید سوخت دیزل از روسیه قبل از اجرایی شدن ممنوعیت واردات در اوایل فوریه است، اما بعید است که انباشت سرسام آور از شوک قیمتی جدید برای کامیون داران جلوگیری کند.",
+      "description": "در دو هفته اول ژانویه، کشورهای اروپایی تقریباً 8 میلیون بشکه گازوئیل روسیه را به فروش رساندند، بر اساس داده‌های ارائه‌دهنده داده‌های انرژی Vortexa، که تقریباً برابر با واردات این زمان در سال گذشته قبل از حمله روسیه به اوکراین بود. واردات در سه ماهه چهارم سال 2022 تقریباً 19 درصد نسبت به مدت مشابه سال قبل افزایش داشته است. از زمان تهاجم روسیه در فوریه سال گذشته، اتحادیه اروپا تلاش زیادی برای کاهش عرضه نفت و گاز طبیعی مسکو انجام داده است. این شامل ممنوعیت واردات نفت خام روسیه از طریق دریا است که در دسامبر به اجرا درآمد. کشورهای اتحادیه اروپا قبل از ممنوعیت واردات نفت خام خود از روسیه را به شدت کاهش دادند، اما این اتفاق در مورد گازوئیل رخ نمی دهد زیرا یافتن جایگزین بسیار دشوارتر است. منابع سوخت",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Economic",
+        "Russian",
+        "swelling",
+        "diesel",
+        "oil"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 11,
+      "type": "Technology",
+      "img": "/src/assets/Technology/apple.png",
+      "subTitle": "حقایق سریع اپل، در اینجا نگاهی به Apple، Inc، خالق رایانه مک و آیفون داریم.",
+      "title": "دفتر مرکزی شرکت در کوپرتینو، کالیفرنیا است. از سپتامبر 2022",
+      "description": "جدول زمانی 1 آوریل 1976 - Apple Computers, Inc توسط استیو جابز و استیو وزنیاک تأسیس شد. اولین محصول آنها رایانه شخصی Apple I است. ژوئن 1977 - Apple II عرضه شد. دسامبر 1980 - اپل یک عرضه عمومی اولیه 4.6 میلیون سهم را به قیمت 22 دلار برای هر سهم انجام داد. ژانویه 1983 - اپل Lisa را معرفی کرد، نام تجاری جدید شخصی. کامپیوتر. 22 ژانویه 1984 - کامپیوتر مکینتاش با یک آگهی تبلیغاتی آینده نگر معرفی شد که در جریان Super Bowl پخش شد. 1985 - اپل پس از یک اجرای ناامیدکننده لیزا را متوقف کرد و جابز شرکت را ترک کرد. دسامبر 1996 - اپل شرکت جابز، NeXT Software را خریداری کرد. 1997 - در پی تغییرات شرکت ها و رکود فروش.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "Apple",
+        "Steve Jobs"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 12,
+      "type": "Technology",
+      "img": "/src/assets/Technology/twitter.jpg",
+      "subTitle": "توییتر با بحرانی شدن تجارت تبلیغاتی خود، ممنوعیت تبلیغات سیاسی را کاهش می دهد",
+      "title": "بیش از سه سال پیش، توییتر تبلیغات سیاسی و مبتنی بر موضوع را به دلیل نگرانی های گسترده تر مبنی بر اینکه سیاستمداران می توانند برای هدف قرار دادن کاربران رسانه های اجتماعی با اطلاعات نادرست یا گمراه کننده هزینه کنند، ممنوع کرد.",
+      "description": "اکنون، تحت مالکیت مالک جدیدش، ایلان ماسک، این شرکت در حال کاهش این ممنوعیت است، در اقدامی که می‌تواند فروش بسیار مورد نیاز توییتر را در زمانی که ماسک به‌سرعت در جستجوی جریان‌های درآمدی جدید است، فراهم کند. اما این امر با خطراتی همراه است: تغییر سیاست می‌تواند کاربران را در معرض تهدیداتی قرار دهد که شرکت قبلاً گفته بود ممکن است قادر به مقابله با آن نباشد، از جمله انتشار جعلی‌های عمیق ایجاد شده توسط هوش مصنوعی و سایر تلاش‌های پیچیده برای دستکاری پلتفرم. روز سه‌شنبه، توییتر آن را اعلام کرد. ممنوعیت تبلیغات موضوعی را کاهش می دهد و می گوید: تبلیغات مبتنی بر علت می تواند گفتگوهای عمومی را در مورد موضوعات مهم تسهیل کند. توییتر اضافه کرد که «تبلیغات سیاسی را که اجازه می‌دهیم در هفته‌های آینده گسترش دهد» و متعهد شد «جزئیات بیشتری را با پیشرفت کار به اشتراک بگذارد».",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "Twitter",
+        "Elon Musk",
+        "ads"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 13,
+      "type": "Technology",
+      "img": "/src/assets/technology/technologyTrends.jpg",
+      "subTitle": "اینها روندهای فناوری هستند که زندگی ما را در سال 2023 شکل خواهند داد",
+      "title": "استاد فقید مدیریت، پیتر دراکر، زمانی گفت: «تلاش برای پیش‌بینی آینده مانند تلاش برای رانندگی در یک جاده روستایی در شب بدون چراغ است.",
+      "description": "وقتی نوبت به پیش‌بینی روندهای جدید در فناوری می‌شود، تغییرات به‌قدری سریع اتفاق می‌افتد که ممکن است پنجره‌ی پشتی نیز مه‌آلود شود. در سال ۲۰۲۲ NFT‌ها از طعم ماه به باقی مانده‌های دیروز تبدیل شدند. ارز دیجیتال یک زمستان سرد طولانی را تجربه کرد. و گداخت هسته‌ای اولین گام‌های خود را از قلمروهای علمی تخیلی به سوی تبدیل شدن به واقعیت علمی برمی‌دارد. اما برای کسانی که آخرین پیشرفت‌ها در نوآوری را دنبال می‌کنند، می‌توانند الگوهایی را ببینند که جوامع به کجا می‌روند و پیش‌بینی کنند که کدام فناوری آنها را به آنجا خواهد برد. با شروع سال 2023، CNN از چهار متخصص خواست تا پیش‌بینی کنند که کدام فناوری‌ها زندگی ما را در سال جاری شکل می‌دهند - این چیزی است که آنها گفتند. هوش مصنوعی (AI) بخشی از زندگی روزمره ما شده است.”",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "lives",
+        "NFTs",
+        "cryptocurrency",
+        "AI"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 14,
+      "type": "Technology",
+      "img": "/src/assets/Technology/hatgpt.jpg",
+      "subTitle": "معلمان در حال انطباق با نگرانی های مربوط به یک ابزار قدرتمند هوش مصنوعی جدید هستند",
+      "title": "هنگامی که کریستن آسپلین در مورد یک ابزار قدرتمند چت ربات هوش مصنوعی به نام ChatGPT شنید که اخیراً به صورت آنلاین آنلاین شده است و توانایی آن برای نوشتن مقالات ترسناک خوب در چند ثانیه است.",
+      "description": "آسپلین، استاد دانشگاه پیتسبورگ در گرینزبورگ، به زودی به یک گروه جدید فیس بوک برای معلمانی مانند خودش ملحق شد تا نگرانی ها و پیشنهادات خود را در مورد چگونگی ساختار مجدد دروس و تکالیف خود در پاسخ به ChatGPT با هم عوض کنند. این ابزار که در اواخر نوامبر راه‌اندازی شد، می‌تواند پاسخ‌های دقیقی به پیام‌های ساده مانند «بیست و پنجمین رئیس‌جمهور ایالات متحده چه کسی بود؟» ایجاد کند. و همچنین پاسخ به سؤالات پیچیده تری مانند چه تحولات سیاسی منجر به سقوط امپراتوری روم شد؟ آسپلین در نهایت تصمیم گرفت رویکرد خود را نسبت به تکالیف نوشتاری تغییر دهد. او اکنون به جای تمرکز بر روی محصول نهایی، که به طور بالقوه می‌تواند به راحتی توسط ChatGPT منتشر شود، از دانش‌آموزان می‌خواهد که مقالات خود را در مراحل مختلف فرآیند نوشتن ارائه دهند.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "ChatGPT",
+        "NFTs",
+        "Robat",
+        "AI"
+      ],
+      "source": "CNN"
+    },
+    {
+      "id": 15,
+      "type": "Technology",
+      "img": "/src/assets/Technology/intel.png",
+      "subTitle": "مدیر عامل اینتل: زنجیره های تامین تراشه در 50 سال آینده بیشتر از نفت، ژئوپلیتیک را شکل خواهند داد",
+      "title": "پت گلسینگر، مدیر عامل اینتل، روز سه شنبه به CNN گفت: سیاست جهانی تحت سلطه در دسترس بودن، تجارت و سرمایه گذاری در ریزتراشه ها برای چند دهه آینده خواهد بود.",
+      "description": "گلسینگر در مصاحبه ای با جولیا چاترلی از سی ان ان در مجمع جهانی اقتصاد در داووس گفت: «موقعیت ذخایر نفتی ژئوپلیتیک را برای پنج دهه گذشته مشخص کرده است». این که زنجیره های تامین فناوری کجا هستند و نیمه هادی ها کجا ساخته می شوند، برای 5 دهه آینده اهمیت بیشتری دارد. گلسینگر گفت: سرمایه گذاری این شرکت در تاسیسات تولیدی جدید در ایالات متحده، اروپا و جاهای دیگر نه تنها برای آینده شرکت، بلکه برای جهانی شدن حیاتی ترین منبع برای آینده جهان مهم است. اینتل (INTC) سال گذشته گفت که 20 میلیارد دلار برای ساخت دو تاسیسات جدید تولید تراشه در ایالات متحده و همچنین تا 90 میلیارد دلار در کارخانه های جدید اروپایی سرمایه گذاری خواهد کرد.",
+      "like": 0,
+      "disLike": 0,
+      "tag": [
+        "Technology",
+        "Intel",
+        "Chip"
+      ]
+    }
+  ],
+  "newsComment": [
+    {
+      "userName": "hamidchoopani",
+      "comment": "good News",
+      "dateTime": "2022/01/01",
+      "newsId": 1,
+      "id": 1
+    },
+    {
+      "comment": "test",
+      "userName": "hamid",
+      "dateTime": "2023/2/3",
+      "newsId": 1,
+      "id": 2
+    },
+    {
+      "comment": "good",
+      "userName": "hamid",
+      "dateTime": "2023/2/4",
+      "newsId": 1,
+      "id": 3
+    },
+    {
+      "comment": "aaaaaaaaaaaa",
+      "userName": "hamid",
+      "dateTime": "2023/2/4",
+      "newsId": 2,
+      "id": 4
+    },
+    {
+      "comment": "id=3",
+      "userName": "hamid",
+      "dateTime": "2023/2/4",
+      "newsId": 3,
+      "id": 5
+    },
+    {
+      "comment": "hamidddd",
+      "userName": "hamid",
+      "dateTime": "2023/2/15",
+      "newsId": 15,
+      "id": 6
+    },
+    {
+      "comment": "testttt",
+      "userName": "hamid",
+      "dateTime": "2023/2/15",
+      "newsId": 5,
+      "id": 7
+    },
+    {
+      "comment": "twitter",
+      "userName": "hamid",
+      "dateTime": "2023/2/15",
+      "newsId": 12,
+      "id": 8
+    },
+    {
+      "comment": "qatar",
+      "userName": "hamid",
+      "dateTime": "2023/2/15",
+      "newsId": 3,
+      "id": 9
+    }
+  ],
+  "typeNews": [
+    {
+      "Typeid": 1,
+      "title": "Technology",
+      "link": "technology"
+    },
+    {
+      "Typeid": 2,
+      "title": "Sport",
+      "link": "Home"
+    },
+    {
+      "Typeid": 3,
+      "title": "Economic",
+      "link": "Economic"
+    }
+  ],
+  "typeNewsFa": [
+    {
+      "Typeid": 1,
+      "title": "تکنولوژی",
+      "link": "technology"
+    },
+    {
+      "Typeid": 2,
+      "title": "ورزشی",
+      "link": "Home"
+    },
+    {
+      "Typeid": 3,
+      "title": "اقتصادی",
+      "link": "Economic"
+    }
+  ],
+  "user": [
+    {
+      "email": "hamid@gmail.com",
+      "password": "12345678",
+      "id": 1
+    },
+    {
+      "email": "hoshyar@gmail.com",
+      "password": "12345678",
+      "id": 2
+    },
+    {
+      "email": "hamid2@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "email": "ali234@gmail.com",
+      "password": "123456789",
+      "id": 4
+    }
+  ],
+  "ContactUs": [
+    {
+      "id": 1,
+      "email": "hamid@gmail.com",
+      "message": "thank you for good website"
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+    "locale": {
+      "en": "English",
+      "fa": "Persian"
+    },
+    "nav": {
+      "CRYPTO CURRENCY": "ارزهای دیجیتال",
+      "METEOROLOGY": "هواشناسی",
+      "LOGOUT": "خروج",
+      "Web News": "اخبار وب"
+    },
+    "home": {
+      "Description": "اطلاعات بیشتر"
+    },
+    
+    "Technology": "تکنولوژی",
+    "Sport": "ورزشی",
+    "Economic": "اقتصادی"
+    
+  }

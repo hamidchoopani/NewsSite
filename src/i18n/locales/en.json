@@ -1,0 +1,18 @@
+{
+    "locale": {
+      "en": "English",
+      "fa": "Persian"
+    },
+    "nav": {
+      "CRYPTO CURRENCY": "CRYPTO CURRENCY",
+      "METEOROLOGY": "METEOROLOGY",
+      "LOGOUT": "LOGOUT",
+      "Web News": "Web News"
+    },
+    "home": {
+      "Description": "Descripton"
+    },
+    "Technology": "TECHNOLOGY",
+    "Sport": "SPORT",
+    "Economic": "ECONOMIC"
+  }
