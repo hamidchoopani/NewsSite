@@ -12,7 +12,9 @@
         <v-toolbar-title
           class="webnews"
           v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }"
-          > newsSite</v-toolbar-title
+          > 
+          <img width="130" src="./assets/logo.png" alt="">
+          </v-toolbar-title
         >
       </router-link>
       <v-spacer></v-spacer>

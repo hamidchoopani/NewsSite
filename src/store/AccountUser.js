@@ -6,8 +6,7 @@ axios.defaults.baseURL = 'http://localhost:3000'
 export const useAccountStore = defineStore('AccountStore', {
     state: () => ({
         checkuser: null,
-        checkEmail: null,
-        checkEmailForLogin: null
+        checkEmail: null
     }),
     getters: {
 
@@ -52,9 +51,9 @@ export const useAccountStore = defineStore('AccountStore', {
             const email = userlogin.email
             const password = userlogin.password
 
-            if (email == '' || password == '') {
-                return this.checkEmailForLogin = 'Please enter email and password'
-            }
+            // if (email == '' || password == '') {
+            //     return this.checkEmailForLogin = 'Please enter email and password'
+            // }
             axios.get(`user?email=${email}&password=${password}`)
                 .then(res => {
                     if (res.status == 200) {

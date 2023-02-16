@@ -1,11 +1,14 @@
 <template>
-  <swiper class="mySwiper">
+  <swiper  speed="50" loop="true" class="mySwiper" :pagination="{
+      dynamicBullets: true,
+    }">
     <swiper-slide><img src="../assets/Sport/Lionel-Messi.png" alt=""></swiper-slide>
     <swiper-slide><img src="../assets/Sport/messi-cup.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="../assets/Sport/messi.jpg" alt=""></swiper-slide>
     <swiper-slide><img src="../assets/Sport/messiAndronaldo.jpg" alt=""></swiper-slide>
   </swiper>
 </template>
+
 
 <script setup>
 import { watch } from "vue";

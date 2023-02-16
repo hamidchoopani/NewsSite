@@ -618,23 +618,13 @@
   "user": [
     {
       "email": "hamid@gmail.com",
-      "password": "12345678",
+      "password": "123456",
       "id": 1
     },
     {
       "email": "hoshyar@gmail.com",
-      "password": "12345678",
+      "password": "123456",
       "id": 2
-    },
-    {
-      "email": "hamid2@gmail.com",
-      "password": "12345",
-      "id": 3
-    },
-    {
-      "email": "ali234@gmail.com",
-      "password": "123456789",
-      "id": 4
     }
   ],
   "ContactUs": [

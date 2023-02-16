@@ -3,13 +3,12 @@
     <main class="hero">
       <div class="search-box">
         <input type="text" class="search-bar" placeholder="Search Cuntry..." v-model="city" />
-        <v-btn
-          icon="mdi-magnify"
-          color="primary"
-          @click="searchCity()"
-        ></v-btn>
+        <v-btn icon="mdi-magnify" color="primary" @click="searchCity()"></v-btn>
       </div>
-      <div class="weather-wrap" v-if="typeof weather.main != 'undefined'">
+      <div v-if="loading" class="loading">
+        <v-progress-circular indeterminate :size="50" color="primary" :width="5"></v-progress-circular>
+      </div>
+      <div v-else class="weather-wrap" v-if="typeof weather.main != 'undefined'">
         <div class="location-box">
           <div class="location"> {{ weather.name }} , {{ weather.sys.country }}</div>
           <div class="date"> {{ dateBuilder() }}</div>
@@ -32,10 +31,11 @@ let city = ref('')
 
 const weatherStore = useWeatherStore()
 
-const { weather } = storeToRefs(weatherStore)
+const { weather, loading } = storeToRefs(weatherStore)
 
-const searchCity =() => {
+const searchCity = () => {
   weatherStore.getWeather(city.value)
+  city.value = ''
 }
 
 const dateBuilder = () => {
@@ -65,6 +65,11 @@ const dateBuilder = () => {
 
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
 }
 
 #app {

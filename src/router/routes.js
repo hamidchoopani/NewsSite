@@ -5,7 +5,6 @@ import SignIn from '@/components/user/SignIn.vue'
 import SignUp from '@/components/user/SignUp.vue'
 import currency from '@/components/currency/Currency.vue'
 import NewsDescription from '@/components/NewsDescription.vue'
-import technology from '@/components/TypeNews/Technology.vue'
 import WeatherApp from '@/components/WeatherApp/WeatherApp.vue'
 import Notfount from '@/views/PageNotFount.vue'
 
@@ -18,8 +17,7 @@ const routes =[
     
     { path: "/SignIn", name: "SignIn", component: SignIn },
     { path: "/SignUp", name: "SignUp", component: SignUp },
-    { path: "/NewsDescription/:id", name: "NewsDescription", component: NewsDescription }, 
-    { path: "/technology", name: "technology", component: technology },
+    { path: "/NewsDescription/:id", name: "NewsDescription", component: NewsDescription },
     { path: "/currency", name: "currency", component: currency },
     { path: "/weatherapp", name: "weatherapp", component: WeatherApp },
     { path: "/ContactUs", name: "ContactUs", component: ContactUs },
