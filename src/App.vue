@@ -4,94 +4,49 @@
   </div>
   <v-app :theme="theme">
     <v-app-bar>
-      <v-app-bar-nav-icon
-        class="menu"
-        @click="drawer = !drawer"
-      ></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon class="menu" @click="drawer = !drawer"></v-app-bar-nav-icon>
       <router-link :to="{ name: 'Home' }">
-        <v-toolbar-title
-          class="webnews"
-          v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }"
-          > 
-          <img width="130" src="./assets/logo.png" alt="">
-          </v-toolbar-title
-        >
+        <v-toolbar-title class="webnews" v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }">
+          newsSite</v-toolbar-title>
       </router-link>
       <v-spacer></v-spacer>
-      <v-btn
-        v-if="currentLang == 'en'"
-        class="box-side"
-        :to="{ name: 'currency' }"
-        >Crypto Currency</v-btn
-      >
-      <v-btn v-else class="box-side" :to="{ name: 'currency' }"
-        >ارزهای دیجیتال</v-btn
-      >
-
-      <v-btn
-        v-if="currentLang == 'en'"
-        class="box-side"
-        :to="{ name: 'weatherapp' }"
-        >Meteorology</v-btn
-      >
-      <v-btn v-else class="box-side" :to="{ name: 'weatherapp' }"
-        >هواشناسی</v-btn
-      >
+      <!-- class="btnsHeader" -->
+      <div class="imgIcon">
+        <v-btn :to="{ name: 'weatherapp' }" class="btnsHeader"><v-icon>mdi-weather-snowy-rainy</v-icon></v-btn>
+        <v-btn :to="{ name: 'currency' }" class="btnsHeader"><v-icon>mdi-chart-areaspline</v-icon></v-btn>
+      </div>
       <div class="box box-side">
         <form name="search">
-          <input
-            type="text"
-            class="input"
-            @keyup="newsInSearch()"
-            v-model="searchBox"
-            onmouseout="this.value = ''; this.blur();"
-          />
+          <input type="text" class="input" @keyup="newsInSearch()" v-model="searchBox"
+            onmouseout="this.value = ''; this.blur();" />
         </form>
         <v-icon>mdi-magnify</v-icon>
       </div>
-      <!-- lang -->
-      <LanguageSwitcher />
 
-      <v-btn @click="changeToUSA()" icon
-        ><img src="@/assets/flag/united-states.svg" width="30" alt=""
-      /></v-btn>
-      <v-btn @click="changeToPersion()" icon
-        ><img src="@/assets/flag/iran.svg" width="30" alt=""
-      /></v-btn>
-      <v-btn
-        class="theme"
-        :prepend-icon="
-          theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'
-        "
-        @click="onClick"
-      >
+      <v-btn v-if="currentLang == 'fa'" class="btnslan" @click="changeToUSA()" icon><img class=""
+          src="@/assets/flag/icons8-usa-48.png" width="40" alt="" /></v-btn>
+      <v-btn v-else class="btnslan" @click="changeToPersion()" icon>
+        <img src="@/assets/flag/icons8-iran-48.png" width="40" alt="" />
+      </v-btn>
+
+      <v-btn class="theme" :prepend-icon="
+        theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'
+      " @click="onClick">
         <v-tooltip activator="parent" location="bottom">change theme</v-tooltip>
       </v-btn>
 
       <router-link v-if="!checkuser" :to="{ name: 'SignIn' }">
-        <v-btn
-          class="account"
-          icon
-          v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }"
-        >
+        <v-btn class="account" icon v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }">
           <v-icon>mdi-account</v-icon>
           <v-tooltip activator="parent" location="bottom">Login</v-tooltip>
         </v-btn>
       </router-link>
 
-      <v-menu
-        v-else-if="checkuser"
-        class="accountLogin account-nav"
-        min-width="200px"
-        rounded
-      >
+      <v-menu v-else-if="checkuser" class="accountLogin account-nav" min-width="200px" rounded>
         <template v-slot:activator="{ props }">
           <v-btn icon v-bind="props" class="avatar">
             <v-avatar color="brown" size="large">
-              <img
-                src="./assets/pngfind.com-avatar-png-2387252.png"
-                width="41"
-              />
+              <img src="./assets/pngfind.com-avatar-png-2387252.png" width="41" />
             </v-avatar>
           </v-btn>
         </template>
@@ -116,58 +71,19 @@
 
     <div class="sidbaar">
       <v-navigation-drawer class="dropdown" v-model="drawer" temporary>
-        <v-btn
-          v-if="currentLang == 'en'"
-          class="mb-3 mt-3"
-          :to="{ name: 'currency' }"
-          >Crypto Currency</v-btn
-        >
-        <v-btn v-else class="box-side" :to="{ name: 'currency' }"
-          >ارزهای دیجیتال</v-btn
-        >
-        <v-btn
-          v-if="currentLang == 'en'"
-          :to="{ name: 'weatherapp' }"
-          >Meteorology</v-btn
-        >
-        <v-btn v-else class="box-side" :to="{ name: 'weatherapp' }"
-          >هواشناسی</v-btn
-        >
 
-        <div class="box">
-          <form name="search" class="search-box">
-            <input
-              type="text"
-              class="input mt-10"
-              name="txt"
-              onmouseout="this.value = ''; this.blur();"
-            />
-            <v-icon class="magnify mt-5">mdi-magnify</v-icon>
-          </form>
-        </div>
         <div class="AccountUser">
           <router-link v-if="!checkuser" :to="{ name: 'SignIn' }">
-            <v-btn
-              icon
-              v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }"
-            >
+            <v-btn icon v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }">
               <v-icon>mdi-account</v-icon>
             </v-btn>
           </router-link>
 
-          <v-menu
-            v-else-if="checkuser"
-            class="accountLogin"
-            min-width="200px"
-            rounded
-          >
+          <v-menu v-else-if="checkuser" class="accountLogin" min-width="200px" rounded>
             <template v-slot:activator="{ props }">
               <v-btn icon v-bind="props">
                 <v-avatar color="brown" size="large">
-                  <img
-                    src="./assets/pngfind.com-avatar-png-2387252.png"
-                    width="41"
-                  />
+                  <img src="./assets/pngfind.com-avatar-png-2387252.png" width="41" />
                 </v-avatar>
               </v-btn>
             </template>
@@ -189,7 +105,31 @@
               </v-card-text>
             </v-card>
           </v-menu>
+          <v-btn :prepend-icon="
+            theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'
+          " @click="onClick">
+            <v-tooltip activator="parent" location="bottom">change theme</v-tooltip>
+          </v-btn>
+
+          <div class="imgIcon">
+            <v-btn icon :to="{ name: 'weatherapp' }"><v-icon>mdi-weather-snowy-rainy</v-icon></v-btn>
+            <v-btn icon :to="{ name: 'currency' }"><v-icon>mdi-chart-areaspline</v-icon></v-btn>
+          </div>
         </div>
+        <div class="langBtn d-flex">
+          <v-btn icon v-if="currentLang == 'fa'" @click="changeToUSA()"><img class=""
+              src="@/assets/flag/icons8-usa-48.png" width="40" alt="" /></v-btn>
+          <v-btn icon v-else @click="changeToPersion()">
+            <img src="@/assets/flag/icons8-iran-48.png" width="40" alt="" />
+          </v-btn>
+        </div>
+        <div class="box">
+          <form name="search" class="search-box">
+            <input type="text" class="input" name="txt" onmouseout="this.value = ''; this.blur();" />
+            <v-icon class="magnify mt-5">mdi-magnify</v-icon>
+          </form>
+        </div>
+
       </v-navigation-drawer>
     </div>
 
@@ -291,6 +231,7 @@ const newsInSearch = () => {
 * {
   font-family: iranSans;
 }
+
 .splash {
   position: fixed;
   top: 0;
@@ -448,12 +389,17 @@ a {
 
 /* responsive */
 @media screen and (max-width: 549px) {
+  .btnsHeader {
+    display: none;
+  }
+
   .box-side,
   .account,
   .account-nav,
   .logout,
   .align-self-center,
   .theme,
+  .btnslan,
   .avatar {
     display: none;
   }
@@ -474,4 +420,17 @@ a {
 }
 
 /* End responsive */
+.btnsHeaders {
+  width: 50px;
+  height: 50px;
+}
+
+.imgIcon img {
+  width: 35px;
+  height: 35px;
+}
+
+/* .btnlan{
+  padding-left: 8px;
+} */
 </style>

@@ -1,7 +1,6 @@
 <template>
-
     <div class="btnTypeNews">
-        <v-btn v-if="currentLang=='en'" class="text-orange mr-5" variant="text" @click="allNews()">All News</v-btn>
+        <v-btn v-if="currentLang == 'en'" class="text-orange mr-5" variant="text" @click="allNews()">All News</v-btn>
         <v-btn v-else class="text-orange mr-5" variant="text" @click="allNews()">همه ی خبر ها</v-btn>
         <v-btn class="text-orange mr-5" variant="text" v-for="newsType in allNewsType" :key="newsType.Typeid">
             <div color="orange" @click="NewsTypeFilter(newsType.title)">{{ newsType.title }}</div>
@@ -17,15 +16,14 @@
                 <v-tooltip activator="parent" location="top">Grid</v-tooltip>
             </v-btn>
 
-            <v-btn class="ml-2" variant="text" :class="{ 'active': layout == 'list' }" v-on:click="layout = 'list'"
-                icon>
+            <v-btn class="ml-2" variant="text" :class="{ 'active': layout == 'list' }" v-on:click="layout = 'list'" icon>
                 <v-icon>mdi-view-list</v-icon>
                 <v-tooltip activator="parent" location="top">List</v-tooltip>
             </v-btn>
         </div>
 
         <!-- <div v-if="AllNews.length">hamid</div>
-        <div v-else>hoshyar</div> -->
+            <div v-else>hoshyar</div> -->
         <div v-if="AllNews.length">
             <v-row v-if="layout == 'list'" class="listTR" no-gutters>
                 <v-progress-circular v-if="loading" indeterminate :size="50" color="primary"
@@ -37,7 +35,7 @@
                             aspect-ratio="1" cover>
                             <!-- <v-card-title>Top 10 Australian beaches</v-card-title> -->
                         </v-img>
-                        <div class="changeP" :class="{ 'textLeft': currentLang=='en', 'textRight': currentLang=='fa' }">
+                        <div class="changeP" :class="{ 'textLeft': currentLang == 'en', 'textRight': currentLang == 'fa' }">
                             <v-card-subtitle class="pt-4">
                                 {{ news.subTitle }}
                             </v-card-subtitle>
@@ -73,7 +71,7 @@
 
                             <!-- <v-card-title>Top 10 Australian beaches</v-card-title> -->
                         </v-img>
-                        <div :class="{ 'textLeft': currentLang=='en', 'textRight': currentLang=='fa' }">
+                        <div :class="{ 'textLeft': currentLang == 'en', 'textRight': currentLang == 'fa' }">
 
                             <v-card-subtitle class="pt-4">
                                 {{ news.subTitle }}
@@ -83,9 +81,9 @@
                                 {{ news.title }}
                             </v-card-text>
 
-                            <router-link v-if="currentLang=='en'" @click="newsDetail(news.id)"
+                            <router-link v-if="currentLang == 'en'" @click="newsDetail(news.id)"
                                 :to="{ name: 'NewsDescription', params: { id: news.id } }"
-                                :class="{ 'btnLeft': currentLang=='en' }">
+                                :class="{ 'btnLeft': currentLang == 'en' }">
                                 <v-card-actions>
                                     <v-btn color="orange">
                                         Description
@@ -94,10 +92,10 @@
                             </router-link>
                             <router-link v-else @click="newsDetail(news.id)"
                                 :to="{ name: 'NewsDescription', params: { id: news.id } }"
-                                :class="{ 'btnRight': currentLang=='fa' }">
+                                :class="{ 'btnRight': currentLang == 'fa' }">
                                 <v-card-actions>
                                     <v-btn color="orange">
-                                         توضیحات بیشتر
+                                        توضیحات بیشتر
                                     </v-btn>
                                 </v-card-actions>
                             </router-link>
@@ -117,7 +115,6 @@
                 variant="outlined"></v-alert>
         </div>
     </v-container>
-
 </template> 
 
 <script setup>
@@ -150,13 +147,17 @@ const pageination = (value) => {
 }
 
 const NewsTypeFilter = (newsType) => {
-    newsStore.allNewsTypeFilter(newsType)
-    
+    if (currentLang.value == 'en') {
+        newsStore.allNewsTypeFilter(newsType)
+    }else{
+        newsStore.allNewsTypeFilterFa(newsType)
+    }
+
 }
 const allNews = () => {
-    if(currentLang.value == 'en'){
+    if (currentLang.value == 'en') {
         newsStore.getAllNewsbyfilterBtn()
-    }else{
+    } else {
         newsStore.getAllNewsbyfilterBtnFa()
     }
 }
@@ -177,17 +178,20 @@ const allNews = () => {
     font-family: iranSans;
 }
 
-.textLeft{
-  text-align: left;
+.textLeft {
+    text-align: left;
 }
-.textRight{
-  text-align: right;
+
+.textRight {
+    text-align: right;
 }
-.btnLeft{
+
+.btnLeft {
     display: flex;
     justify-content: left;
 }
-.btnRight{
+
+.btnRight {
     display: flex;
     justify-content: right;
 }
@@ -198,10 +202,11 @@ const allNews = () => {
     grid-gap: 1rem;
 }
 
-.v-col{
+.v-col {
     width: auto;
     height: 416px !important;
 }
+
 @media (min-width: 600px) {
     .v-col-sm-4 {
         flex: 0 0 33.3333333333% !important;
@@ -254,9 +259,11 @@ a {
     grid-gap: 15px 0;
 }
 
-@media screen and (max-width: 407px) {
+
+@media screen and (max-width: 560px) {
     .btnTypeNews {
         display: grid;
+        grid-template-columns: repeat(2, minmax(150px, 300px));
     }
 }
 

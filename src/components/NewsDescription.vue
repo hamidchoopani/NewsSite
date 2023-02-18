@@ -73,7 +73,11 @@ newsStore.getLikeComment(NewsId)
 
 newsStore.getDislikeComment(NewsId)
 const filterByTag = (tag) => {
-  newsStore.filterNewsByTag(tag)
+  if (currentLang.value == 'en'){
+    newsStore.filterNewsByTag(tag)
+  }else{
+    newsStore.filterNewsByTagFa(tag)
+  }
 }
 
 watch(currentLang, () => {

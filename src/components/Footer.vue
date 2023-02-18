@@ -8,11 +8,11 @@
 				</div>
 			</router-link>
 			<p>quick access</p>
-			<p class="footer-links">
-				<a href="#" class="link-1">Home</a>
-				<a href="#">Contact us</a>
-				<a href="#">CryptoCurrency</a>
-				<a href="#">Meteorology</a>
+			<p class="footer-links ">
+				<v-btn :to="{name:'Home'}" class="pa-0" variant="plain">Home</v-btn>
+				<v-btn :to="{name:'ContactUs'}" class="pa-0" variant="plain">Contact Us</v-btn>
+				<v-btn :to="{name:'currency'}" class="pl-2" variant="plain">CryptoCurrency</v-btn>
+				<v-btn :to="{name:'weatherapp'}" class="pa-0" variant="plain">Meteorology</v-btn>
 			</p>
 			<p class="footer-company-name">News Name © 2023</p>
 		</div>
@@ -255,19 +255,7 @@ section {
 	;
 }
 
-.footer-distributed .footer-links a:before {
-	content: "|";
-	font-weight: 300;
-	font-size: 20px;
-	left: 0;
-	/* color: #fff; */
-	display: inline-block;
-	padding-right: 5px;
-}
 
-.footer-distributed .footer-links .link-1:before {
-	content: none;
-}
 
 /* Footer Right */
 

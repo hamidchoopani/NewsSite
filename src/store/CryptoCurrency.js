@@ -15,14 +15,6 @@ export const useCryptoCurrencyStore = defineStore('CryptoCurrencyStore', {
             .then(res=>{
                 this.cryptoCurrency=res.data
                 this.loading=false
-            //   res.data.coins.forEach(element => {
-            //     this.cryptoCurrency.push(element.item)
-            //   });
-                // res.data.coins.map(data=>{
-                //   allcrypto.value=data
-                //   console.log(data);
-                // })
-              console.log(res.data);
             })
         }
     }

@@ -29,7 +29,7 @@ export const useNewsStore = defineStore('NewsStore', {
     },
     actions: {
         getAllNewsbyfilterBtn() {
-            axios('news')
+            axios('https://apexnews.onrender.com/news')
                 .then(res => {
                     if (res.status === 200) {
                         this.AllNews = res.data
@@ -39,7 +39,7 @@ export const useNewsStore = defineStore('NewsStore', {
                 })
         },
         getAllNewsbyfilterBtnFa() {
-            axios('newsFa')
+            axios('https://apexnews.onrender.com/newsFa')
                 .then(res => {
                     if (res.status === 200) {
                         this.AllNews = res.data
@@ -50,7 +50,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         getNews() {
             if (this.currentLang == 'en') {
-                axios('news')
+                axios('https://apexnews.onrender.com/news')
                     .then(res => {
                         if (res.status === 200) {
                             if (this.searchDataTag != '') {
@@ -71,7 +71,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         getNewsFa() {
             if (this.currentLang == 'fa') {
-                axios('newsFa')
+                axios('https://apexnews.onrender.com/newsFa')
                     .then(res => {
                         if (res.status === 200) {
                             if (this.searchDataTag != '') {
@@ -92,7 +92,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         getSingleNews(id) {
             if (this.currentLang == 'en') {
-                axios('news/' + id)
+                axios('https://apexnews.onrender.com/news/' + id)
                     .then(res => {
                         if (res.status === 200) {
                             this.newsDetail = res.data
@@ -107,7 +107,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         getSingleNewsFa(id) {
             if (this.currentLang == 'fa') {
-                axios('newsFa/' + id)
+                axios('https://apexnews.onrender.com/newsFa/' + id)
                     .then(res => {
                         if (res.status === 200) {
                             this.newsDetail = res.data
@@ -122,7 +122,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         getNewsType() {
             if (this.currentLang == 'en') {
-                axios('typeNews')
+                axios('https://apexnews.onrender.com/typeNews')
                     .then(res => {
                         if (res.status === 200) {
                             this.allNewsType = res.data
@@ -136,7 +136,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         getNewsTypeFa() {
             if (this.currentLang == 'fa') {
-                axios('typeNewsFa')
+                axios('https://apexnews.onrender.com/typeNewsFa')
                     .then(res => {
                         if (res.status === 200) {
                             this.allNewsType = res.data
@@ -149,7 +149,16 @@ export const useNewsStore = defineStore('NewsStore', {
             }
         },
         allNewsTypeFilter(newsType) {
-            axios(`news?type=${newsType}`)
+            axios(`https://apexnews.onrender.com/news?type=${newsType}`)
+                .then(res => {
+                    if (res.data != '') {
+                        this.AllNews = res.data
+                        this.loading = false
+                    }
+                })
+        },
+        allNewsTypeFilterFa(newsType) {
+            axios(`https://apexnews.onrender.com/newsFa?type=${newsType}`)
                 .then(res => {
                     if (res.data != '') {
                         this.AllNews = res.data
@@ -158,7 +167,7 @@ export const useNewsStore = defineStore('NewsStore', {
                 })
         },
         newsSearch(value) {
-            axios(`news?q=${value}`)
+            axios(`https://apexnews.onrender.com/news?q=${value}`)
                 .then(res => {
                     this.pagesCount = Math.ceil(res.data.length / this.pageSize)
                     this.AllNews = res.data.slice((this.page - 1) * this.pageSize, (this.page) * this.pageSize);
@@ -169,10 +178,9 @@ export const useNewsStore = defineStore('NewsStore', {
                 })
         },
         getNewsComments(newsId) {
-            axios(`newsComment?newsId=${newsId}`)
+            axios(`https://apexnews.onrender.com/newsComment?newsId=${newsId}`)
                 .then(res => {
                     if (res.data != '') {
-                        console.log(res.data);
                         this.allNewsComment = res.data
                         this.loading = false
                     } else {
@@ -182,7 +190,7 @@ export const useNewsStore = defineStore('NewsStore', {
                 })
         },
         getLikeComment(newsId) {
-            axios(`news/${newsId}`)
+            axios(`https://apexnews.onrender.com/news/${newsId}`)
                 .then(res => {
                     if (res.data != '') {
                         this.countLike = res.data.like
@@ -192,7 +200,7 @@ export const useNewsStore = defineStore('NewsStore', {
                 })
         },
         getDislikeComment(newsId) {
-            axios(`news/${newsId}`)
+            axios(`https://apexnews.onrender.com/news/${newsId}`)
                 .then(res => {
                     if (res.data != '') {
                         this.countDislike = res.data.disLike
@@ -203,7 +211,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         addCommentUser(comment) {
             if (comment.comment != null) {
-                axios.post(`newsComment`, comment)
+                axios.post(`https://apexnews.onrender.com/newsComment`, comment)
                     .then(res => {
                         this.getNewsComments(comment.newsId)
                         return
@@ -235,7 +243,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         getImageNews() {
             if (this.currentLang == 'en'){
-                axios('news')
+                axios('https://apexnews.onrender.com/news')
                     .then(res => {
                         if (res.status === 200) {
                             this.getAllImageNews = res.data
@@ -249,7 +257,7 @@ export const useNewsStore = defineStore('NewsStore', {
         },
         getImageNewsFa() {
             if (this.currentLang == 'fa'){
-                axios('newsFa')
+                axios('https://apexnews.onrender.com/newsFa')
                     .then(res => {
                         if (res.status === 200) {
                             this.getAllImageNews = res.data
@@ -262,7 +270,7 @@ export const useNewsStore = defineStore('NewsStore', {
             }
         },
         likeTheNews(newsId) {
-            axios(`news/${newsId}`)
+            axios(`https://apexnews.onrender.com/news/${newsId}`)
                 .then(res => {
                     if (res.data != '') {
                         const newss = {
@@ -288,7 +296,7 @@ export const useNewsStore = defineStore('NewsStore', {
                 })
         },
         disLikeTheNews(newsId) {
-            axios(`news/${newsId}`)
+            axios(`https://apexnews.onrender.com/news/${newsId}`)
                 .then(res => {
                     if (res.data != '') {
                         const newss = {
@@ -329,7 +337,19 @@ export const useNewsStore = defineStore('NewsStore', {
             }
         },
         filterNewsByTag(tag) {
-            axios(`news?q=${tag}`)
+            axios(`https://apexnews.onrender.com/news?q=${tag}`)
+                .then(res => {
+                    this.pagesCount = Math.ceil(res.data.length / this.pageSize)
+                    this.searchDataTag = res.data.slice((this.page - 1) * this.pageSize, (this.page) * this.pageSize);
+                    router.push("/")
+                    this.loading = false
+                    // if(res.data!=''){
+                    //     this.AllNews=res.data
+                    // }
+                })
+        },
+        filterNewsByTagFa(tag) {
+            axios(`https://apexnews.onrender.com/newsFa?q=${tag}`)
                 .then(res => {
                     this.pagesCount = Math.ceil(res.data.length / this.pageSize)
                     this.searchDataTag = res.data.slice((this.page - 1) * this.pageSize, (this.page) * this.pageSize);
