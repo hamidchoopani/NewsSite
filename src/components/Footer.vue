@@ -8,7 +8,7 @@
 				</div>
 			</router-link>
 			<p>quick access</p>
-			<p class="footer-links ">
+			<p class="footer-links">
 				<v-btn :to="{name:'Home'}" class="pa-0" variant="plain">Home</v-btn>
 				<v-btn :to="{name:'ContactUs'}" class="pa-0" variant="plain">Contact Us</v-btn>
 				<v-btn :to="{name:'currency'}" class="pl-2" variant="plain">CryptoCurrency</v-btn>

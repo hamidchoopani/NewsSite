@@ -7,13 +7,22 @@
       <v-app-bar-nav-icon class="menu" @click="drawer = !drawer"></v-app-bar-nav-icon>
       <router-link :to="{ name: 'Home' }">
         <v-toolbar-title class="webnews" v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }">
-          newsSite</v-toolbar-title>
+          <img width="130" src="./assets/logo.png" alt="">
+          </v-toolbar-title>
       </router-link>
       <v-spacer></v-spacer>
       <!-- class="btnsHeader" -->
       <div class="imgIcon">
-        <v-btn :to="{ name: 'weatherapp' }" class="btnsHeader"><v-icon>mdi-weather-snowy-rainy</v-icon></v-btn>
-        <v-btn :to="{ name: 'currency' }" class="btnsHeader"><v-icon>mdi-chart-areaspline</v-icon></v-btn>
+        <v-btn :to="{ name: 'weatherapp' }" class="btnsHeader" icon>
+          <v-icon size="35">mdi-weather-snowy-rainy</v-icon>
+          <v-tooltip v-if="currentLang=='en'" activator="parent" location="bottom">Meteorology</v-tooltip>
+          <v-tooltip v-else activator="parent" location="bottom">هواشناسی</v-tooltip>
+        </v-btn>
+        <v-btn :to="{ name: 'currency' }" class="btnsHeader" icon>
+          <v-icon size="30">mdi-chart-areaspline</v-icon>
+          <v-tooltip v-if="currentLang=='en'"  activator="parent" location="bottom">CryptoCurrency</v-tooltip>
+          <v-tooltip v-else  activator="parent" location="bottom">ارزهای دیجیتال</v-tooltip>
+        </v-btn>
       </div>
       <div class="box box-side">
         <form name="search">
@@ -32,13 +41,15 @@
       <v-btn class="theme" :prepend-icon="
         theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'
       " @click="onClick">
-        <v-tooltip activator="parent" location="bottom">change theme</v-tooltip>
+        <v-tooltip v-if="currentLang=='en'" activator="parent" location="bottom">change theme</v-tooltip>
+        <v-tooltip v-else activator="parent" location="bottom">عوض کرد تم</v-tooltip>
       </v-btn>
 
       <router-link v-if="!checkuser" :to="{ name: 'SignIn' }">
         <v-btn class="account" icon v-bind:class="{ 'text-white': clicked, 'text-black': !clicked }">
           <v-icon>mdi-account</v-icon>
-          <v-tooltip activator="parent" location="bottom">Login</v-tooltip>
+          <v-tooltip v-if="currentLang=='en'" activator="parent" location="bottom">Login</v-tooltip>
+          <v-tooltip v-else activator="parent" location="bottom">ورود به سایت</v-tooltip>
         </v-btn>
       </router-link>
 
@@ -108,7 +119,8 @@
           <v-btn :prepend-icon="
             theme === 'light' ? 'mdi-weather-sunny' : 'mdi-weather-night'
           " @click="onClick">
-            <v-tooltip activator="parent" location="bottom">change theme</v-tooltip>
+            <v-tooltip v-if="currentLang=='en'" activator="parent" location="bottom">change theme</v-tooltip>
+            <v-tooltip v-else activator="parent" location="bottom">عوض کردن تم</v-tooltip>
           </v-btn>
 
           <div class="imgIcon">

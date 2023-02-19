@@ -1,46 +1,43 @@
-<template>
-  <!-- <h1 class="description">
+<template><!-- <h1 class="description">
     Crypto Currency
   </h1> -->
-  <div v-if="loading">
-    <v-progress-circular indeterminate :size="50" color="primary" :width="5"></v-progress-circular>
-  </div>
-  <table class="containerr" v-else>
-    <thead>
-      <tr>
-        <th class="description">Name</th>
-        <th class="description">Last Price</th>
-        <th class="description">24h Change</th>
-        <th class="description">Market Cap</th>
-      </tr>
-    </thead>
-    
-    <tbody>
-      <tr v-for=" currency in cryptoCurrency" :key="currency.id">
-        <td class="coinname"><img class="imgcurrency" :src="currency.image" />
-          <a class="dewq">{{ currency.name }} ({{ currency.symbol }})
-          </a>
-        </td>
-        <td> {{ currencyFormat(currency.current_price) }}</td>
-        
-        <td
-          :class="{ 'text-red': currency.price_change_percentage_24h < 0, 'text-green': currency.price_change_percentage_24h > 0 }">
-        <span v-if="currency.price_change_percentage_24h>0">
-          <v-icon>mdi-trending-up</v-icon>
-        </span> 
-        <span v-else>
-          <v-icon>mdi-trending-down</v-icon>
-        </span> 
-          {{ currency.price_change_percentage_24h.toPrecision(3) }}
-        </td>
-        <td class="btnbuysell">
-          {{ currencyFormat(currency.market_cap) }}
-        </td>
-      </tr>
-    </tbody>
-  </table>
+    <div v-if="loading">
+      <v-progress-circular indeterminate :size="50" color="primary" :width="5"></v-progress-circular>
+    </div>
+    <table class="containerr" v-else>
+      <thead>
+        <tr>
+          <th class="description">Name</th>
+          <th class="description">Last Price</th>
+          <th class="description">24h Change</th>
+          <th class="description MarketCap">Market Cap</th>
+        </tr>
+      </thead>
 
+      <tbody>
+        <tr v-for=" currency in cryptoCurrency" :key="currency.id">
+          <td class="coinname"><img class="imgcurrency" :src="currency.image" />
+            <a class="dewq">{{ currency.name }} ({{ currency.symbol }})
+            </a>
+          </td>
+          <td> {{ currencyFormat(currency.current_price) }}</td>
 
+          <td
+            :class="{ 'text-red': currency.price_change_percentage_24h < 0, 'text-green': currency.price_change_percentage_24h > 0 }">
+            <span v-if="currency.price_change_percentage_24h > 0">
+              <v-icon>mdi-trending-up</v-icon>
+            </span>
+            <span v-else>
+              <v-icon>mdi-trending-down</v-icon>
+            </span>
+            {{ currency.price_change_percentage_24h.toPrecision(3) }}
+          </td>
+          <td class="btnbuysell">
+            {{ currencyFormat(currency.market_cap) }}
+          </td>
+        </tr>
+      </tbody>
+    </table>
 </template>
 
 <script setup>
@@ -49,12 +46,23 @@ import { storeToRefs } from 'pinia';
 import currencyFormat from '@/utilites'
 const cryptoCStore = useCryptoCurrencyStore()
 
-const { cryptoCurrency,loading } = storeToRefs(cryptoCStore)
+const { cryptoCurrency, loading } = storeToRefs(cryptoCStore)
 
 cryptoCStore.getCryptoCurrency()
 </script>
 
 <style scoped>
+@media screen and (max-width: 460px) {
+  .MarketCap {
+    display: none;
+  }
+
+  .btnbuysell {
+    display: none;
+  }
+
+}
+
 .text-green {
   color: green;
 }

@@ -15,7 +15,9 @@ export const useCryptoCurrencyStore = defineStore('CryptoCurrencyStore', {
             .then(res=>{
                 this.cryptoCurrency=res.data
                 this.loading=false
-            })
+            }).catch(function (error) {
+                console.log(error);
+              });
         }
     }
 })

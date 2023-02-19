@@ -1,26 +1,22 @@
 <template>
-  <swiper  speed="50" loop="true" class="mySwiper" :pagination="{
-      dynamicBullets: true,
-    }">
-    <swiper-slide><img src="../assets/Sport/Lionel-Messi.png" alt=""></swiper-slide>
-    <swiper-slide><img src="../assets/Sport/messi-cup.jpg" alt=""></swiper-slide>
-    <swiper-slide><img src="../assets/Sport/messi.jpg" alt=""></swiper-slide>
-    <swiper-slide><img src="../assets/Sport/messiAndronaldo.jpg" alt=""></swiper-slide>
-  </swiper>
+  <v-carousel hide-delimiters cycle progress="orange">
+    <!-- <v-lazy  :options="{ threshold: 1 }"
+      transition="scale-transition"> -->
+      <v-carousel-item  v-for="news in getAllImageNews" :key="news.id" :lazy-src="news.img" :src="news.img" cover>
+        <div class="devcarousel" :class="{'devcarouselFa' : currentLang=='fa'}">
+          <router-link @click="newsDetail(news.id)" :to="{ name: 'NewsDescription', params: { id: news.id } }">
+            <v-card-title class="maro text-black">{{ news.subTitle }}</v-card-title>
+          </router-link>
+        </div>
+      </v-carousel-item>
+    <!-- </v-lazy> -->
+  </v-carousel>
 </template>
-
 
 <script setup>
 import { watch } from "vue";
 import { useNewsStore } from '@/store/News'
 import { storeToRefs } from 'pinia';
-
-  // Import Swiper Vue.js components
-  import { Swiper, SwiperSlide } from 'swiper/vue';
-
-  // Import Swiper styles
-  import 'swiper/css';
-
 
 const newsStore = useNewsStore()
 const { getAllImageNews, currentLang } = storeToRefs(newsStore)
@@ -95,6 +91,9 @@ newsStore.getImageNews()
   width: 100%;
   height: 55px;
   transform: translateY(28rem);
+}
+.devcarouselFa{
+  text-align: right;
 }
 
 a {
