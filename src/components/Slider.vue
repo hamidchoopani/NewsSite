@@ -6,7 +6,7 @@
         <div class="devcarousel" :class="{'devcarouselFa' : currentLang=='fa'}">
           <router-link @click="newsDetail(news.id)" :to="{ name: 'NewsDescription', params: { id: news.id } }">
             <v-card-title class="maro text-black">{{ news.subTitle }}</v-card-title>
-          </router-link>
+          </router-link> 
         </div>
       </v-carousel-item>
     <!-- </v-lazy> -->

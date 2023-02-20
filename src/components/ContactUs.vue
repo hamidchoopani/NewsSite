@@ -39,7 +39,7 @@
             :error-messages="errors.message"></v-textarea>
           <!-- <v-btn class="text-orange" width="120">Send Now</v-btn> -->
           <v-btn color="orange" variant="outlined" width="150" type="submit" name="Send">
-            Button
+            Send
           </v-btn>
         </form>
       </div>
